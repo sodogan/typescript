@@ -11,4 +11,8 @@ class Burger {
     }
 }
 exports.Burger = Burger;
+const test = {
+    size: 2,
+    price: 23
+};
 //# sourceMappingURL=Burger.js.map

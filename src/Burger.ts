@@ -16,3 +16,8 @@ export class Burger<T> implements Burgerable<T>{
     return this.size;
   }
 }
+
+const test:Burgerable<number> = {
+  size:2,
+  price:23
+}
