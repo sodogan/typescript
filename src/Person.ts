@@ -9,8 +9,10 @@ class Person  implements Personable{
     this._lastName = lastName;
   }
   
-
-  public set FirstName(fName:string) {
+  /**
+   * Setter for the firstname
+   */
+   public set FirstName(fName:string) {
     this._firstName = fName;
   }
 
@@ -22,6 +24,7 @@ class Person  implements Personable{
     return this._lastName;
   }
 
+  
   public describe(): Person {
     const str = "the person is " + this.FirstName + this.LastName;
     console.log(str);
