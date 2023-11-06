@@ -1,1 +1,1 @@
-# typescript
+# typescript sample code
